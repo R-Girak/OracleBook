@@ -1,0 +1,19 @@
+package Chapter02;
+
+/**
+ * Created by Gerka on 08-Jan-18.
+ */
+public class Ch02_001_Inches {
+
+    // Расчет числа кубических дюймов в кубе обьемом в 1 куб. милю
+
+    public static void main(String[] args) {
+        long ci;
+        long im;
+
+        im = 5280 * 12;
+        ci = im * im * im;
+
+        System.out.println("В одной кубической миле содержиться " + ci + " кубических дюймов");
+    }
+}
